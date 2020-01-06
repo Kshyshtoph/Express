@@ -1,0 +1,15 @@
+extends ../layout
+
+block content
+  h1= title
+  form(method="post")
+    p
+        label login
+        input(type="text" name="login")
+    p
+        label hasło
+        input(type="password" name="password")
+    p
+        input(type="submit" value="zaloguj")
+        
+
